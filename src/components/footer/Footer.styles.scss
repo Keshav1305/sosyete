@@ -1,0 +1,45 @@
+@import "../../styles/base/variables";
+@import "../../styles/base/mixins";
+
+.footer-return {
+  padding: 30px 6%;
+  text-align: right;
+
+  a {
+    text-decoration: none;
+  }
+
+  .footer-return-text {
+    color: $dark-blue;
+    padding: 7px;
+    font-family: $avenir-book;
+    font-size: 14px;
+    line-height: 36px;
+  }
+}
+
+.footer {
+  @include display-flex(space-between, center);
+  height: 130px;
+  padding: 0 6%;
+  background: linear-gradient(90deg, #e7377f 0%, #f18925 100%);
+
+  .footer-text {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    font-family: $avenir-book;
+
+    a {
+      color: #fff;
+      font-size: 14px;
+      text-align: left;
+      font-family: $avenir-book;
+    }
+  }
+
+  ul {
+    @include display-flex(center, center);
+    gap: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./mixins";
+
+.container {
+  padding: 20px 6% 15px;
+  max-width: 1600px;
+
+  .container-inner {
+    margin: auto;
+  }
+}

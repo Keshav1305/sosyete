@@ -1,0 +1,90 @@
+@import "../../styles/base/variables";
+@import "../../styles/base/mixins";
+
+.hp-bloc1 {
+  display: flex;
+  background-color: whitesmoke;
+  padding: 80px;
+  position: relative;
+  &__left {
+    margin-left: 5%;
+
+    &__background {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    &__background1 {
+      position: absolute;
+      right: 0;
+      top: 25px;
+      height: 500px;
+    }
+
+    &__title {
+      border-bottom: 1px solid black;
+      height: 50px;
+      margin-bottom: 40px;
+      h2 {
+        font-family: $avenir-black;
+        font-size: 35px;
+      }
+    }
+
+    &__texts {
+      display: flex;
+      margin-bottom: 25px;
+      .bigr {
+        font-family: $avenir-black;
+        font-size: 300px;
+        line-height: 250px;
+        height: 100%;
+      }
+
+      .r-words {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .r-word {
+          text-transform: uppercase;
+          font-family: $avenir-black;
+          font-size: 40px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    &__btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .text {
+        text-transform: uppercase;
+        font-family: $avenir-medium;
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        text-transform: uppercase;
+        padding: 10px 15px;
+        background-color: #fb2020;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+          background-color: #f55c5c;
+        }
+        span {
+          font-weight: 500;
+          font-size: 20px;
+          color: whitesmoke;
+          font-family: $avenir-medium;
+        }
+      }
+    }
+  }
+}

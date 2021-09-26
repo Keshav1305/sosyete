@@ -1,0 +1,49 @@
+//display: flex mixin, param : justify-content, align-items, flex-direction
+@mixin display-flex($justify: false, $align: false, $flex-direction: false) {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	@if $justify {
+	-webkit-justify-content: $justify;
+					justify-content: $justify;
+	}
+
+	@if $align {
+	-webkit-align-items: $align;
+			align-items: $align;
+	}
+
+	@if $flex-direction {
+	-webkit-flex-direction: $flex-direction;
+			-ms-flex-direction: $flex-direction;
+					flex-direction: $flex-direction;
+	}
+}
+
+//@media min-width
+@mixin reponsive-min-width($breakpoint) {
+	@if map-has-key($map: $breakpoints, $key: $breakpoint) {
+		$breakpoint-value: map-get($breakpoints, $breakpoint);
+		@media(min-width: $breakpoint-value) { @content; }
+	}
+}
+
+//@media max-width
+@mixin reponsive-max-wdith($breakpoint) {
+	@if map-has-key($map: $breakpoints, $key: $breakpoint) {
+		$breakpoint-value: map-get($breakpoints, $breakpoint);
+		@media(max-width: ($breakpoint-value - 1)) { @content; }
+	}
+}
+
+//@media min-width & max-width
+@mixin reponsive-between($lower, $upper) {
+	@if map-has-key($map: $breakpoints, $key: $lower) and map-has-key($map: $breakpoints, $key: $upper) {
+		$lower-breakpoint: map-get($map: $breakpoints, $key: $lower);
+		$upper-breakpoint: map-get($map: $breakpoints, $key: $upper);
+		@media (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) { @content; }
+	}
+}
