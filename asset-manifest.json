@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08c219a7.chunk.css",
+    "main.js": "/static/js/main.79b48e5a.chunk.js",
+    "main.js.map": "/static/js/main.79b48e5a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.28dd770e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.28dd770e.js.map",
+    "static/js/2.3c5661f0.chunk.js": "/static/js/2.3c5661f0.chunk.js",
+    "static/js/2.3c5661f0.chunk.js.map": "/static/js/2.3c5661f0.chunk.js.map",
+    "static/js/3.9466147a.chunk.js": "/static/js/3.9466147a.chunk.js",
+    "static/js/3.9466147a.chunk.js.map": "/static/js/3.9466147a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.08c219a7.chunk.css.map": "/static/css/main.08c219a7.chunk.css.map",
+    "static/js/2.3c5661f0.chunk.js.LICENSE.txt": "/static/js/2.3c5661f0.chunk.js.LICENSE.txt",
+    "static/media/Header.styles.scss": "/static/media/Avenir-Medium.cd4c3907.ttf",
+    "static/media/logo.895096f5.png": "/static/media/logo.895096f5.png",
+    "static/media/section1.1.f4bbc97c.png": "/static/media/section1.1.f4bbc97c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28dd770e.js",
+    "static/js/2.3c5661f0.chunk.js",
+    "static/css/main.08c219a7.chunk.css",
+    "static/js/main.79b48e5a.chunk.js"
+  ]
+}
