@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router';
 import logo from "../../logo.png";
 
 import "./Header.styles.scss";
@@ -6,6 +7,7 @@ import "./Header.styles.scss";
 export default function Header() {
   // set sticky header on
   const [navOpen, setActive] = useState(false);
+  let history = useHistory();
   const toggleActiveState = () => {
     setActive(!navOpen);
   };
@@ -19,6 +21,10 @@ export default function Header() {
     } else {
       setScrolled(false)
     }
+  }
+
+  const handleRedirect = (url) => {
+    history.push(url);
   }
 
   useEffect(() => {
@@ -35,16 +41,48 @@ export default function Header() {
       <nav className="nav">
         <ul className="nav-list">
           <li>
-            <a href="/">Home</a>
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                handleRedirect("/");
+              }}
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="/">About Us</a>
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                handleRedirect("/");
+              }}
+            >
+              About Us
+            </a>
           </li>
           <li>
-            <a href="/">5R's</a>
+            <a
+              href="/"
+              onClick={(e) => {
+                e.preventDefault();
+                handleRedirect("/");
+              }}
+            >
+              5R's
+            </a>
           </li>
           <li>
-            <a href="/">Contact Us</a>
+            <a
+              href="/contact-us"
+              onClick={(e) => {
+                e.preventDefault();
+                handleRedirect("/contact-us");
+              }}
+            >
+              Contact Us
+            </a>
           </li>
 
         </ul>
