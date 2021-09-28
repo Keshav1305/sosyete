@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-
 import { GoogleMap, withGoogleMap, withScriptjs, Marker, InfoWindow } from 'react-google-maps';
+
+import HpMapLegend from './HpMapLegend';
 
 import markers from "../../assets/data/markers.json";
 
-import recyclebin from "../../assets/images/recycle-bin.png";
-import recyclingcontainer from "../../assets/images/recycling-container.png";
-import factory from "../../assets/images/factory.png";
-import trashcan from "../../assets/images/trash-can.png";
+import all from "../../assets/images/all.png";
+import plastic from "../../assets/images/plastic.png";
+import plasticandcans from "../../assets/images/plasticandcans.png";
+import battery from "../../assets/images/battery.png";
+import building from "../../assets/images/building.png";
 
 
 import "./HpBloc3.styles.scss"
@@ -16,7 +18,7 @@ const MyMapComponent = () => {
   const [infoWindowContent, setInfoWindow] = useState(null);
   return (
     <GoogleMap
-      defaultZoom={10}
+      defaultZoom={11}
       defaultCenter={{ lat: -20.26933032066475, lng: 57.57212066597212 }}
     >
       {markers.markers.map((marker) => {
@@ -28,7 +30,7 @@ const MyMapComponent = () => {
             }}
             onClick={() => { setInfoWindow(marker) }}
             icon={{
-              url: (marker.type === "plastic" ? recyclebin : "") || (marker.type === "plasticarton" ? trashcan : "") || (marker.type === "all" ? recyclingcontainer : "") || (marker.type === "industry" ? factory : ""),
+              url: (marker.type === "all" ? all : "") || (marker.type === "plastic" ? plastic : "") || (marker.type === "plasticandcans" ? plasticandcans : "") || (marker.type === "battery" ? battery : "") || (marker.type === "building" ? building : ""),
               scaledSize: new window.google.maps.Size(30, 30)
             }}
           />
@@ -60,6 +62,7 @@ const WrappedMap = withScriptjs(withGoogleMap(MyMapComponent))
 export default function HpBloc3() {
   return (
     <div className="container">
+      <HpMapLegend />
       <div className="map">
         <WrappedMap
           isMarkerShown
