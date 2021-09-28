@@ -22,17 +22,17 @@
   @include display-flex(space-between, center);
   height: 130px;
   padding: 0 6%;
-  background: linear-gradient(90deg, #e7377f 0%, #f18925 100%);
+  background: linear-gradient(90deg, #d8d8d8 0%, #99fe84 100%);
 
   .footer-text {
-    color: #fff;
-    font-size: 14px;
+    color: black;
+    font-size: 18px;
     text-align: left;
     font-family: $avenir-book;
 
     a {
-      color: #fff;
-      font-size: 14px;
+      color: black;
+      font-size: 18px;
       text-align: left;
       font-family: $avenir-book;
     }
@@ -41,5 +41,13 @@
   ul {
     @include display-flex(center, center);
     gap: 10px;
+
+    li {
+      a {
+        img {
+          width: 35px;
+        }
+      }
+    }
   }
 }
