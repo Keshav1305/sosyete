@@ -1,0 +1,81 @@
+@import "../../styles/base/variables";
+@import "../../styles/base/mixins";
+
+.contact {
+  margin-top: 150px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title {
+    width: 100%;
+    background-color: #c3e7bb;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+      font-family: $avenir-black;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__form {
+    background-color: whitesmoke;
+    padding: 50px;
+
+    .form-header {
+      font-family: $avenir-medium;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .form-footer {
+      font-family: $avenir-medium;
+      font-size: 14px;
+      margin-bottom: 25px;
+      font-style: italic;
+      color: #636363;
+    }
+
+    button {
+      border-radius: 25px;
+      background-color: #c3e7bb;
+      padding: 15px;
+      cursor: pointer;
+      border: none;
+      margin-bottom: 25px;
+      &:hover {
+        background-color: #a6f096;
+      }
+    }
+
+    form {
+      margin-bottom: 20px;
+      .form-input {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-family: $avenir-medium;
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+
+        input {
+          margin-bottom: 20px;
+          border-radius: 20px;
+          padding: 10px;
+        }
+
+        textarea {
+          border-radius: 20px;
+          padding: 10px;
+          margin-bottom: 20px;
+          max-width: calc(100% - 25px);
+          min-width: calc(100% - 25px);
+        }
+      }
+    }
+  }
+}
