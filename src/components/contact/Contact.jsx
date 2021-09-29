@@ -9,7 +9,7 @@ export default function Contact() {
         <h2>CONTACT US</h2>
       </div>
       <div className="contact__form">
-        <p className="form-header">Have some questions about our activities? Want to get in touch? Contact us now using the form below. Our representative will get in touch with you shortly.</p>
+        <p className="form-header">Have some questions about our activities? Want to get in touch? Contact us now using the form below.</p>
         <form>
           <div className="form-input">
             <label for="name">Your Name (required)</label>
@@ -29,7 +29,7 @@ export default function Contact() {
           </div>
           <button>Submit Request</button>
         </form>
-        <p className="form-footer">It is our policy to take all necessary steps to ensure that all your Personal Information held by us is processed fairly and lawfully. We will take all necessary steps to implement and maintain this Privacy Policy. All our employees and data processors that have access to Personal Information are obliged to respect the confidentiality of your Personal Information. Read our Privacy Policy for more details.</p>
+        <p className="form-footer">It is our policy to take all necessary steps to ensure that all your Personal Information held by us is processed fairly and lawfully. We will take all necessary steps to implement and maintain this Privacy Policy. </p>
       </div>
     </div>
   );

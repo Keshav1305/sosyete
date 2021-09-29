@@ -6,14 +6,14 @@
       "lng": 57.49847194836595,
       "address": "University of Mauritius Reduit MU, 80837",
       "typeName": "Plastic Bottles",
-      "type": "all"
+      "type": "plastic"
     },
     {
       "id": "2",
       "lat": -20.225423064176322,
       "lng": 57.53787666689913,
       "address": "Kendra Saint Pierre MU, 81407",
-      "typeName": "Plastic and Carton",
+      "typeName": "Battery",
       "type": "battery"
     },
     {
@@ -21,24 +21,24 @@
       "lat": -20.277689987871284,
       "lng": 57.49535906048585,
       "address": "Centre Commercial Phoenix, S Sivananda Ave, Vacoas-Phoenix",
-      "typeName": "All types",
-      "type": "building"
+      "typeName": "Paper, Cartons, Plastics and Cans",
+      "type": "all"
     },
     {
       "id": "4",
       "lat": -20.194387027327565,
       "lng": 57.66902550933333,
       "address": "B23, Lalmatie",
-      "typeName": "Industrial recycling",
-      "type": "plastic"
+      "typeName": "Plastic and Cans",
+      "type": "plasticandcans"
     },
     {
       "id": "5",
       "lat": -20.168591268601602,
       "lng": 57.65351463593559,
       "address": "Brisee Verdiere",
-      "typeName": "Industrial recycling",
-      "type": "plasticandcans"
+      "typeName": "Recycling Industry",
+      "type": "building"
     }
   ]
 }
