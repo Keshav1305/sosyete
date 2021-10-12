@@ -39,6 +39,30 @@
       "address": "Brisee Verdiere",
       "typeName": "Recycling Industry",
       "type": "building"
+    },
+    {
+      "id": "6",
+      "lat": -20.268591268601602,
+      "lng": 57.75351463593559,
+      "address": "Bel Air",
+      "typeName": "Oil Recycling",
+      "type": "oil"
+    },
+    {
+      "id": "7",
+      "lat": -20.158591268601602,
+      "lng": 57.65351463593559,
+      "address": "Pamplemousses",
+      "typeName": "Glass Recycling",
+      "type": "glass"
+    },
+    {
+      "id": "8",
+      "lat": -20.138591268601602,
+      "lng": 57.56351463593559,
+      "address": "Notre Dame",
+      "typeName": "E-waste Recycling",
+      "type": "ewaste"
     }
   ]
 }
