@@ -21,7 +21,7 @@ export default function Footer() {
 						<svg id="arrow-up" viewBox="0 0 32 32" width="14px" height="100%">
 							<title>Arrow up</title>
 							<polygon points="9,8 16,0 23,8"></polygon>
-							<line stroke="#000" x1="16" y1="4.	228" x2="16" y2="32"></line>
+							<line stroke="#000" x1="16" y1="4.228" x2="16" y2="32"></line>
 						</svg>
 						<span className="footer-return-text">Return to top</span>
 					</span>
