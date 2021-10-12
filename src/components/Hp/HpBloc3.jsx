@@ -113,6 +113,9 @@ const MyMapComponent = (props) => {
         defaultCenter={pos}
       >
         {markers.markers.map((marker) => {
+          if (!iconSelected.includes(marker.type)) {
+            return;
+          }
           return (
             <Marker
               key={marker.id}
