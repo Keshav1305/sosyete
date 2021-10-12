@@ -2,7 +2,7 @@
 @import "../../styles/base/mixins";
 
 .contact {
-  margin-top: 150px;
+  padding-top: 150px;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -64,8 +64,14 @@
 
         input {
           margin-bottom: 20px;
-          border-radius: 20px;
+          border-radius: 8px;
           padding: 10px;
+          outline: none;
+          border: none;
+
+          &:focus-visible {
+            outline: 2px solid #a6f096;
+          }
         }
 
         textarea {
@@ -74,6 +80,12 @@
           margin-bottom: 20px;
           max-width: calc(100% - 25px);
           min-width: calc(100% - 25px);
+
+          outline: none;
+          border: none;
+          &:focus-visible {
+            outline: 2px solid #a6f096;
+          }
         }
       }
     }
