@@ -1,14 +1,6 @@
 {
   "markers": [
     {
-      "id": "1",
-      "lat": -20.232110949365406,
-      "lng": 57.49847194836595,
-      "address": "University of Mauritius Reduit MU, 80837",
-      "typeName": "Plastic Bottles",
-      "type": "plastic"
-    },
-    {
       "id": "2",
       "lat": -20.225423064176322,
       "lng": 57.53787666689913,
@@ -17,36 +9,12 @@
       "type": "battery"
     },
     {
-      "id": "3",
-      "lat": -20.277689987871284,
-      "lng": 57.49535906048585,
-      "address": "Centre Commercial Phoenix, S Sivananda Ave, Vacoas-Phoenix",
-      "typeName": "Paper, Cartons, Plastics and Cans",
-      "type": "all"
-    },
-    {
       "id": "4",
       "lat": -20.194387027327565,
       "lng": 57.66902550933333,
       "address": "B23, Lalmatie",
       "typeName": "Plastic and Cans",
       "type": "plasticandcans"
-    },
-    {
-      "id": "5",
-      "lat": -20.168591268601602,
-      "lng": 57.65351463593559,
-      "address": "Brisee Verdiere",
-      "typeName": "Recycling Industry",
-      "type": "building"
-    },
-    {
-      "id": "6",
-      "lat": -20.268591268601602,
-      "lng": 57.75351463593559,
-      "address": "Bel Air",
-      "typeName": "Oil Recycling",
-      "type": "oil"
     },
     {
       "id": "7",
@@ -58,11 +26,107 @@
     },
     {
       "id": "8",
-      "lat": -20.138591268601602,
-      "lng": 57.56351463593559,
-      "address": "Notre Dame",
-      "typeName": "E-waste Recycling",
+      "lat": -20.2485523507076,
+      "lng": 57.43810901725991,
+      "address": "BEM Recycling - La chaumiere",
+      "typeName": "Recycling Industry",
+      "type": "building"
+    },
+    {
+      "id": "9",
+      "lat": -20.113530417283773,
+      "lng": 57.55992687735149,
+      "address": "The Good Shop - Calebasses",
+      "typeName": "BEM Depot",
       "type": "ewaste"
+    },
+    {
+      "id": "10",
+      "lat": -20.313095418045627,
+      "lng": 57.51907735762546,
+      "address": "The Good Shop - Curepipe",
+      "typeName": "BEM Depot",
+      "type": "ewaste"
+    },
+    {
+      "id": "11",
+      "lat": -20.332530718228202,
+      "lng": 57.36929300505915,
+      "address": "Charity Centre - Tamarin",
+      "typeName": "BEM Depot",
+      "type": "ewaste"
+    },
+    {
+      "id": "12",
+      "lat": -20.14715966101802,
+      "lng": 57.68497460440154,
+      "address": "Social Welfare Centre - Laventure",
+      "typeName": "District Council",
+      "type": "plastic"
+    },
+    {
+      "id": "13",
+      "lat": -20.501313735598167,
+      "lng": 57.44011656928014,
+      "address": "Plankton - Bel-Ombre",
+      "typeName": "Recycling Industry",
+      "type": "building"
+    },
+    {
+      "id": "14",
+      "lat": -20.27874572893041,
+      "lng": 57.40281741160365,
+      "address": "Cascavelle Shopping Village",
+      "typeName": "Mission Verte",
+      "type": "all"
+    },
+    {
+      "id": "15",
+      "lat": -20.132334895002643,
+      "lng": 57.52927587242358,
+      "address": "Parking Winner's - Terre rouge",
+      "typeName": "Mission Verte",
+      "type": "all"
+    },
+    {
+      "id": "16",
+      "lat": -20.13853818455779,
+      "lng": 57.51293431345611,
+      "address": "WeCycle LTD- Port Louis",
+      "typeName": "Recycling Industry",
+      "type": "building"
+    },
+    {
+      "id": "17",
+      "lat": -20.011842475160552,
+      "lng": 57.58775960944603,
+      "address": "Super U - Grand baie",
+      "typeName": "Mission Verte",
+      "type": "all"
+    },
+    {
+      "id": "18",
+      "lat": -20.3286773775685,
+      "lng": 57.385221425095274,
+      "address": "Super U - Tamarin",
+      "typeName": "Bio Oil",
+      "type": "oil"
+    },
+    {
+      "id": "19",
+      "lat": -20.1842610514488,
+      "lng": 57.72346227967164,
+      "address": "Super U - Flacq",
+      "typeName": "Bio Oil",
+      "type": "oil"
+    },
+    {
+      "id": "20",
+      "lat": -20.013290705284117,
+      "lng": 57.58675275568618,
+      "address": "Super U - Grand Baie",
+      "typeName": "Bio Oil",
+      "type": "oil"
     }
   ]
 }
